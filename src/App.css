@@ -6,7 +6,7 @@
 .body {
   font-family: "Almarai";
 }
-
+/* THIS IS THE TOP HEADER ONLY */
 .top-banner {
   display: flex;
   align-items: center;
@@ -14,18 +14,35 @@
   background-color: teal;
   color: white;
 }
-
+/* THE IMAGE RIGHT UNDER THE TOP HEADER */
+.top-banner-img {
+  height: 50vw;
+  width: auto;
+}
+/* THIS IS THE STYLIGN FOR ALL THE SUBHEDING SUCH AS BEST SELLERS */
 .sub-heading {
   display: flex;
   align-items: center;
   justify-content: center;
   color: white;
   font-family: "Lobster";
-  font-size: 5vw;
+  font-size: calc(5vw + 1em);
   background-color: teal;
 }
+
+.best-seller-section {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+/* THIS IS THE STYLING FOR THE GROUP OF IMAGES */
 .best-sellers-images {
-  display: grid;
-  grid-template-columns: 1fr 1fr 1fr 1fr;
-  grid-template-rows: 2fr 1fr;
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+}
+/* THIS IS THE STYLING FOR THE ACTUAL IMAGES WITHIN THE GROUP */
+.best-seller-img {
+  height: auto;
+  width: 20vw;
 }

@@ -4,7 +4,7 @@ function TopBanner(props) {
   return (
     <div>
       <p className="top-banner">{props.text}</p>
-      <img src={topviewfood} alt="top view of food" />
+      <img src={topviewfood} alt="top view of food" class="top-banner-img" />
     </div>
   );
 }
