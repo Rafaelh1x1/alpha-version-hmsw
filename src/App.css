@@ -33,7 +33,10 @@
 .best-seller-section {
   display: flex;
   flex-direction: row;
-  gap: 1rem;
+  gap: 2rem;
+  padding: 1rem;
+  align-items: center;
+  justify-content: center;
 }
 /* THIS IS THE STYLING FOR THE GROUP OF IMAGES */
 .best-sellers-images {
