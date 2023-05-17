@@ -25,7 +25,7 @@
   align-items: center;
   justify-content: center;
   color: white;
-  font-family: "Lobster";
+  font-family: "Secular One";
   font-size: calc(5vw + 1em);
   background-color: teal;
 }
@@ -48,4 +48,29 @@
 .best-seller-img {
   height: auto;
   width: 20vw;
+}
+
+.choose-location {
+  border: 1px palegoldenrod solid;
+  background-color: brown;
+  color: palegoldenrod;
+}
+
+.choose-location-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* STYLING FOR MENU ITEM TYPES */
+.menu-item-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1vw;
+  background-color: palegoldenrod;
+}
+.menu-item-type {
+  font-weight: 500;
+  color: brown;
 }

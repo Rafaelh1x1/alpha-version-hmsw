@@ -3,6 +3,8 @@ import "./App.css";
 import TopBanner from "./topBanner";
 import BestSellers from "./bestSellers";
 import SubHeading from "./SubHeading";
+import ChooseLocation from "./chooseLocation";
+import MenuItemTypes from "./menuItemTypes";
 import CrabCakeSand from "./images/CrabCakeSand.jpg";
 import FishNChips from "./images/FishNChips.jpg";
 import FishNShrimp from "./images/FishNShrimp.jpg";
@@ -10,9 +12,9 @@ import HotTossChik from "./images/HotTossChik.jpg";
 
 function App() {
   return (
-    <div className="body">
+    <body className="body">
       <TopBanner text="11508 N 56TH STREET, TEMPLE TERRACE, FL 33617 | 813-437-3474"></TopBanner>
-      <SubHeading text="Best Sellers"></SubHeading>
+      <SubHeading text="BEST SELLERS"></SubHeading>
       <div className="best-seller-section">
         <BestSellers
           imageSrc={CrabCakeSand}
@@ -32,10 +34,19 @@ function App() {
         <BestSellers
           imageSrc={HotTossChik}
           imageAlt="Hot Tossed Chicken with Collard Greens"
-          text="Hot Toss CHicken with Collard Greens"
+          text="Hot Toss Chicken with Collard Greens"
         ></BestSellers>
       </div>
-    </div>
+      <SubHeading text="MENU"></SubHeading>
+
+      {/* CLick the location in order to change the menu depedning on the store location */}
+      <div className="choose-location-container">
+        <ChooseLocation text="Choose Location"></ChooseLocation>
+      </div>
+
+      {/* Click these and they will change the HTML being displaeyd */}
+      <MenuItemTypes></MenuItemTypes>
+    </body>
   );
 }
 
