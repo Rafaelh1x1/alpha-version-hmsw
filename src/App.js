@@ -49,15 +49,27 @@ function App() {
       <MenuItemTypes></MenuItemTypes>
       <SubHeading text="HOURS & LOCATIONS"></SubHeading>
       <SubHeading text="WHO ARE WE?"></SubHeading>
-      <ContentText text="When faced to raise prices or decrease quality, Half Moon Seafood Co. was born to challenge the seafood status quo. Founded in 2020, the Half Moon team is committed to providing our guests with quality seafood in an affordable, fast-casual format. "></ContentText>
-      <ContentText text="We take pride in our relationships with our suppliers to ensure we only serve seafood from transparent and sustainable sources. The Half Moon team is committed to providing a thoughtfully sourced meal, always made-to-order for you. Our goal is simple, to serve quality (and delicious) fish sandwiches, made with as few ingredients as possible. "></ContentText>
-      <ContentText
-        text="When it comes to great food, we don’t think you should have to choose between fast and healthy. Half Moon Seafood Co. found a home in Tampa Bay, and we could not be more excited to join the community.
+      <div>
+        <ContentText text="When faced to raise prices or decrease quality, Half Moon Seafood Co. was born to challenge the seafood status quo. Founded in 2020, the Half Moon team is committed to providing our guests with quality seafood in an affordable, fast-casual format. "></ContentText>
+        <ContentText text="We take pride in our relationships with our suppliers to ensure we only serve seafood from transparent and sustainable sources. The Half Moon team is committed to providing a thoughtfully sourced meal, always made-to-order for you. Our goal is simple, to serve quality (and delicious) fish sandwiches, made with as few ingredients as possible. "></ContentText>
+        <ContentText
+          text="When it comes to great food, we don’t think you should have to choose between fast and healthy. Half Moon Seafood Co. found a home in Tampa Bay, and we could not be more excited to join the community.
 
 Half Moon...full belly. "
-      ></ContentText>
+        ></ContentText>{" "}
+      </div>
       <SubHeading text="WORK WITH US"></SubHeading>
+      <div>
+        <ContentText text="We’d love to have you join our team! Please use the form below to apply. Feel free to send in your resume even if you don't see the position you're looking for listed."></ContentText>
+        <ContentText text="APPLY NOW"></ContentText>
+      </div>
       <SubHeading text="CONTACT US"></SubHeading>
+      <ContentText text="Send us a message and we’ll get back to you as soon as possible. Looking forward to hearing from you."></ContentText>
+      <ContentText text="Name"></ContentText>
+      <ContentText text="Email"></ContentText>
+      <ContentText text="Phone Number"></ContentText>
+      <ContentText text="Reason for reaching out?"></ContentText>
+      <ContentText text="">SEND</ContentText>
     </body>
   );
 }

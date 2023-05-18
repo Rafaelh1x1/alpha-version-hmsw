@@ -6,6 +6,7 @@
 .body {
   font-family: "Almarai";
   background-color: beige;
+  overflow: hidden;
 }
 /* THIS IS THE TOP HEADER ONLY */
 .top-banner {
@@ -20,7 +21,7 @@
   height: 50vw;
   width: auto;
 }
-/* THIS IS THE STYLIGN FOR ALL THE SUBHEDING SUCH AS BEST SELLERS */
+/* THIS IS THE STYLING FOR ALL THE SUBHEADING SUCH AS BEST SELLERS */
 .sub-heading {
   display: flex;
   align-items: center;
