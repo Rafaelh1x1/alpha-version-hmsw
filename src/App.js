@@ -46,6 +46,10 @@ function App() {
 
       {/* Click these and they will change the HTML being displaeyd */}
       <MenuItemTypes></MenuItemTypes>
+      <SubHeading text="HOURS & LOCATIONS"></SubHeading>
+      <SubHeading text="WHO ARE WE?"></SubHeading>
+      <SubHeading text="WORK WITH US"></SubHeading>
+      <SubHeading text="CONTACT US"></SubHeading>
     </body>
   );
 }
