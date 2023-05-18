@@ -5,6 +5,7 @@ import BestSellers from "./bestSellers";
 import SubHeading from "./SubHeading";
 import ChooseLocation from "./chooseLocation";
 import MenuItemTypes from "./menuItemTypes";
+import ContentText from "./content";
 import CrabCakeSand from "./images/CrabCakeSand.jpg";
 import FishNChips from "./images/FishNChips.jpg";
 import FishNShrimp from "./images/FishNShrimp.jpg";
@@ -48,6 +49,13 @@ function App() {
       <MenuItemTypes></MenuItemTypes>
       <SubHeading text="HOURS & LOCATIONS"></SubHeading>
       <SubHeading text="WHO ARE WE?"></SubHeading>
+      <ContentText text="When faced to raise prices or decrease quality, Half Moon Seafood Co. was born to challenge the seafood status quo. Founded in 2020, the Half Moon team is committed to providing our guests with quality seafood in an affordable, fast-casual format. "></ContentText>
+      <ContentText text="We take pride in our relationships with our suppliers to ensure we only serve seafood from transparent and sustainable sources. The Half Moon team is committed to providing a thoughtfully sourced meal, always made-to-order for you. Our goal is simple, to serve quality (and delicious) fish sandwiches, made with as few ingredients as possible. "></ContentText>
+      <ContentText
+        text="When it comes to great food, we don’t think you should have to choose between fast and healthy. Half Moon Seafood Co. found a home in Tampa Bay, and we could not be more excited to join the community.
+
+Half Moon...full belly. "
+      ></ContentText>
       <SubHeading text="WORK WITH US"></SubHeading>
       <SubHeading text="CONTACT US"></SubHeading>
     </body>
