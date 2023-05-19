@@ -82,3 +82,19 @@
   font-weight: 500;
   color: brown;
 }
+
+.sticky-bar {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  position: fixed;
+  top: 85%;
+  left: 3%;
+  width: 50px;
+  height: 100vh;
+  z-index: 9999;
+}
+
+.sticky-bar-icon {
+  fill: brown;
+}

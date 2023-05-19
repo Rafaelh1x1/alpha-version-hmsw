@@ -6,6 +6,7 @@ import SubHeading from "./SubHeading";
 import ChooseLocation from "./chooseLocation";
 import MenuItemTypes from "./menuItemTypes";
 import ContentText from "./content";
+import StickyBar from "./stickyBar";
 import CrabCakeSand from "./images/CrabCakeSand.jpg";
 import FishNChips from "./images/FishNChips.jpg";
 import FishNShrimp from "./images/FishNShrimp.jpg";
@@ -70,6 +71,7 @@ Half Moon...full belly. "
       <ContentText text="Phone Number"></ContentText>
       <ContentText text="Reason for reaching out?"></ContentText>
       <ContentText text="">SEND</ContentText>
+      <StickyBar></StickyBar>
     </body>
   );
 }
