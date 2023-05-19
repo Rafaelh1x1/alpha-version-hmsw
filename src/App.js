@@ -1,4 +1,3 @@
-import logo from "./logo.svg";
 import "./App.css";
 import TopBanner from "./topBanner";
 import BestSellers from "./bestSellers";
@@ -15,7 +14,7 @@ import HotTossChik from "./images/HotTossChik.jpg";
 function App() {
   return (
     <body className="body">
-      <TopBanner text="11508 N 56TH STREET, TEMPLE TERRACE, FL 33617 | 813-437-3474"></TopBanner>
+      <TopBanner text="11508 N 56TH STREET, TEMPLE TERRACE, FL 33617 |    813-437-3474"></TopBanner>
       <SubHeading text="BEST SELLERS"></SubHeading>
       <div className="best-seller-section">
         <BestSellers
@@ -49,6 +48,17 @@ function App() {
       {/* Click these and they will change the HTML being displaeyd */}
       <MenuItemTypes></MenuItemTypes>
       <SubHeading text="HOURS & LOCATIONS"></SubHeading>
+      <div>
+        <ContentText
+          text="11508 N 56th Street,
+Temple Terrace, FL 33617"
+        ></ContentText>
+        <ContentText text="813-437-3474"></ContentText>
+        <ContentText text="info@halfmoonseafood.com"></ContentText>
+        <ContentText text="GET DIRECTIONS"></ContentText>
+        <ContentText text="Tuesday - Saturday - 11 am - 9 pm"></ContentText>
+        <ContentText text="Tuesday - Saturday - 11 am - 9 pm"></ContentText>
+      </div>
       <SubHeading text="WHO ARE WE?"></SubHeading>
       <div>
         <ContentText text="When faced to raise prices or decrease quality, Half Moon Seafood Co. was born to challenge the seafood status quo. Founded in 2020, the Half Moon team is committed to providing our guests with quality seafood in an affordable, fast-casual format. "></ContentText>
@@ -70,7 +80,7 @@ Half Moon...full belly. "
       <ContentText text="Email"></ContentText>
       <ContentText text="Phone Number"></ContentText>
       <ContentText text="Reason for reaching out?"></ContentText>
-      <ContentText text="">SEND</ContentText>
+      <ContentText text="SEND"></ContentText>
       <StickyBar></StickyBar>
     </body>
   );
