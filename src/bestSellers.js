@@ -10,6 +10,7 @@ function bestSellers(props) {
           className="best-seller-img"
         />
         <p>{props.text}</p>
+        <p>{props.price}</p>
       </div>
     </div>
   );

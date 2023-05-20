@@ -21,21 +21,25 @@ function App() {
           imageSrc={CrabCakeSand}
           imageAlt="Crab Cake Sandwich"
           text="Crab Cake Sandwich with chips"
+          price="$16"
         ></BestSellers>
         <BestSellers
           imageSrc={FishNChips}
           imageAlt="Fish and Chips"
           text="Fish and Chips"
+          price="$15"
         ></BestSellers>
         <BestSellers
           imageSrc={FishNShrimp}
           imageAlt="Fish and Shrimp"
           text="Fish and Shrimp"
+          price="$19"
         ></BestSellers>
         <BestSellers
           imageSrc={HotTossChik}
           imageAlt="Hot Tossed Chicken with Collard Greens"
           text="Hot Toss Chicken with Collard Greens"
+          price="$13"
         ></BestSellers>
       </div>
       <SubHeading text="MENU"></SubHeading>
