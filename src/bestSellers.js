@@ -9,8 +9,11 @@ function bestSellers(props) {
           alt={props.imageAlt}
           className="best-seller-img"
         />
-        <p>{props.text}</p>
-        <p>{props.price}</p>
+
+        <div class="best-seller-text">
+          <p>{props.text}</p>
+          <p>{props.price}</p>
+        </div>
       </div>
     </div>
   );

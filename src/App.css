@@ -4,7 +4,7 @@
 }
 
 .body {
-  font-family: "Almarai";
+  font-family: "Lilita One";
   background-color: #efebcf;
   overflow: hidden;
 }
@@ -28,7 +28,7 @@
   align-items: center;
   justify-content: center;
   color: #cf4929;
-  font-family: "Secular One";
+  font-family: "Lilita One";
   font-size: calc(5vw + 1em);
   background-color: #262512;
   border: 3px #67b0b3 solid;
@@ -42,11 +42,11 @@
 
 .best-seller-section {
   display: flex;
+  align-items: center;
+  justify-content: center;
   flex-direction: row;
   gap: 2rem;
   padding: 1rem;
-  align-items: center;
-  justify-content: center;
 }
 /* THIS IS THE STYLING FOR THE GROUP OF IMAGES */
 .best-sellers-images {
@@ -58,6 +58,10 @@
 .best-seller-img {
   height: auto;
   width: 20vw;
+}
+
+.best-seller-text {
+  font-family: Lilita One;
 }
 
 .choose-location {
