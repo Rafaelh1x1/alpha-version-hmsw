@@ -7,8 +7,9 @@ function TopBanner(props) {
       <div class="top-banner-img-container">
         <img src={topviewfood} alt="top view of food" class="top-banner-img" />
         <div class="text-overlay">
-          <p>HALF MOON SEAFOOD</p>
-          <p>Sustainably Sourced</p>
+          <p class="top-banner-img-bold-text">HALF MOON </p>
+          <p class="top-banner-img-bold-text">Seafood Co.</p>
+          <p class="top-banner-img-ss-text">Sustainably Sourced seafood</p>
         </div>
       </div>
     </div>
