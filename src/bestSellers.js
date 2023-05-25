@@ -11,8 +11,9 @@ function bestSellers(props) {
         />
 
         <div class="best-seller-text">
-          <p>{props.text}</p>
-          <p>{props.price}</p>
+          <p class="best-sellers-item-name">{props.text}</p>
+          <p class="best-sellers-item-description">{props.description}</p>
+          <p class="best-sellers-item-price">{props.price}</p>
         </div>
       </div>
     </div>

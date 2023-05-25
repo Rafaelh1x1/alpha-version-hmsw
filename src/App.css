@@ -35,11 +35,12 @@
   width: 45vw;
   text-align: center;
 }
+/* Styling for top image that states half moon seafood co. */
 .top-banner-img-bold-text {
   font-family: "Lilita One";
   font-size: calc(3.5vw + 1em);
 }
-
+/* Styling for top image that states sustainably sourced seafood */
 .top-banner-img-ss-text {
   font-family: "Secular One";
   font-size: calc(1.5vw + 1em);
@@ -65,7 +66,7 @@
   text-align: center;
   padding: 2rem;
 }
-
+/* Specific styling for the Best sellers subheading */
 .best-sellers-subheading {
   letter-spacing: 1rem;
   padding-bottom: 2rem;
@@ -86,19 +87,32 @@
 /* THIS IS THE STYLING FOR THE GROUP OF IMAGES */
 .best-sellers-images {
   display: flex;
-  /* align-items: center;
-  justify-content: center; */
   flex-direction: column;
+  width: 40vw;
 }
 /* THIS IS THE STYLING FOR THE ACTUAL IMAGES WITHIN THE GROUP */
 .best-seller-img {
   height: auto;
-  width: 30vw;
+  width: 40vw;
   border-radius: 1rem;
 }
 
 .best-seller-text {
   font-family: Lilita One;
+}
+/* Styling for name of best selling items */
+.best-sellers-item-name {
+  font-size: calc(1.5vw + 1em);
+}
+/* Styling for teh description of best selling items */
+.best-sellers-item-description {
+  font-family: "Secular One";
+  font-weight: 500;
+  font-size: calc(0.2vw + 1em);
+}
+/* Styling for the price of the best selling items */
+.best-sellers-item-price {
+  font-size: calc(1vw + 1em);
 }
 
 .choose-location {
