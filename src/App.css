@@ -44,16 +44,13 @@
   display: flex;
   gap: 1rem;
   position: absolute;
-  top: 4.5%;
-  left: 74%;
+  top: 5%;
+  left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(0, 0, 0, 0.7);
-  /* border-radius: 0.2rem; */
-  color: #e0eff2;
-  /* padding: 0.5rem; */
-  /* width: 50vw; */
+  color: white;
   text-align: center;
-  /* border: 1rem #cf4929 groove; */
+  background-color: rgba(0, 0, 0, 0.7);
+  padding: 10px;
 }
 /* Styling for top image that states half moon seafood co. */
 .top-banner-img-bold-text {
