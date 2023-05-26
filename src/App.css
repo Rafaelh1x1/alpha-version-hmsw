@@ -23,6 +23,7 @@
   position: relative;
   display: inline-block;
 }
+/* CSS STYLINF FOR THE LETTERS OVER THE MAIN BANENR IMAGE  */
 .text-overlay {
   position: absolute;
   top: 50%;
@@ -34,6 +35,25 @@
   padding: 0.5rem;
   width: 45vw;
   text-align: center;
+  border: 1rem #cf4929 groove;
+}
+.quick-nav {
+  font-family: "Secular One";
+  font-weight: 500;
+  font-size: calc(0.2vw + 1em);
+  display: flex;
+  gap: 1rem;
+  position: absolute;
+  top: 4.5%;
+  left: 74%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0, 0, 0, 0.7);
+  /* border-radius: 0.2rem; */
+  color: #e0eff2;
+  /* padding: 0.5rem; */
+  /* width: 50vw; */
+  text-align: center;
+  /* border: 1rem #cf4929 groove; */
 }
 /* Styling for top image that states half moon seafood co. */
 .top-banner-img-bold-text {
@@ -49,7 +69,7 @@
 .top-banner-img {
   height: 50vw;
   width: auto;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
 }
 /* THIS IS THE STYLING FOR ALL THE SUBHEADING SUCH AS BEST SELLERS */
 .sub-heading {
@@ -66,10 +86,18 @@
   text-align: center;
   padding: 2rem;
 }
+
 /* Specific styling for the Best sellers subheading */
 .best-sellers-subheading {
+  font-size: calc(2vw + 1em);
+  text-align: center;
+  vertical-align: center;
+  font-weight: 600;
   letter-spacing: 1rem;
-  padding-bottom: 2rem;
+  padding-bottom: 1rem;
+  border-top: 1rem #67b0b3 groove;
+  border-bottom: 1rem #67b0b3 groove;
+  background-color: #262512;
 }
 
 .best-seller-section {
@@ -80,21 +108,22 @@
   justify-items: center;
   padding: 1rem;
   background-image: url("./images/best-sellers-background.png");
-  background-size: cover;
+  background-size: contain;
   background-position: center;
-  background-repeat: no-repeat;
+  background-repeat: repeat;
 }
 /* THIS IS THE STYLING FOR THE GROUP OF IMAGES */
 .best-sellers-images {
   display: flex;
   flex-direction: column;
-  width: 40vw;
+  width: 35vw;
 }
 /* THIS IS THE STYLING FOR THE ACTUAL IMAGES WITHIN THE GROUP */
 .best-seller-img {
   height: auto;
-  width: 40vw;
+  width: 35vw;
   border-radius: 1rem;
+  border: 0.3rem #cf4929 groove;
 }
 
 .best-seller-text {
@@ -102,16 +131,19 @@
 }
 /* Styling for name of best selling items */
 .best-sellers-item-name {
+  color: #262512;
   font-size: calc(1.5vw + 1em);
 }
 /* Styling for teh description of best selling items */
 .best-sellers-item-description {
   font-family: "Secular One";
+  color: #262512;
   font-weight: 500;
   font-size: calc(0.2vw + 1em);
 }
 /* Styling for the price of the best selling items */
 .best-sellers-item-price {
+  color: #262512;
   font-size: calc(1vw + 1em);
 }
 

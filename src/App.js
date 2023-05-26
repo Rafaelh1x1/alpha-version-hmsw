@@ -16,7 +16,7 @@ function App() {
     <body className="body">
       <TopBanner text="11508 N 56TH STREET, TEMPLE TERRACE, FL 33617 |    813-437-3474"></TopBanner>
       <div class="best-sellers-subheading">
-        <SubHeading text="BEST SELLERS"></SubHeading>
+        <SubHeading text="OUR BEST SELLERS"></SubHeading>
       </div>
       <div className="best-seller-section">
         <BestSellers

@@ -11,6 +11,15 @@ function TopBanner(props) {
           <p class="top-banner-img-bold-text">Seafood Co.</p>
           <p class="top-banner-img-ss-text">Sustainably Sourced seafood</p>
         </div>
+        <div class="quick-nav">
+          <p class="quick-nav-text">HOME</p>
+          <p class="quick-nav-text">BEST-SELLERS</p>
+          <p class="quick-nav-text">MENU</p>
+          <p class="quick-nav-text">LOCATIONS</p>
+          <p class="quick-nav-text">ABOUT US</p>
+          <p class="quick-nav-text">CAREERS</p>
+          <p class="quick-nav-text">CONTACT</p>
+        </div>
       </div>
     </div>
   );
