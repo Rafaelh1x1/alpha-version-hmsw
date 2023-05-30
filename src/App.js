@@ -3,7 +3,8 @@ import TopBanner from "./topBanner";
 import BestSellers from "./bestSellers";
 import SubHeading from "./SubHeading";
 import ChooseLocation from "./chooseLocation";
-import MenuItemTypes from "./menuItemTypes";
+import MenuItemSubheading from "./menuItemSubheading";
+import { menuItemImg, menuItemType, menuItem } from "./menuItems";
 import ContentText from "./content";
 import StickyBar from "./stickyBar";
 import CrabCakeSand from "./images/CrabCakeSand.jpg";
@@ -57,7 +58,7 @@ function App() {
       </div>
 
       {/* Click these and they will change the HTML being displaeyd */}
-      <MenuItemTypes></MenuItemTypes>
+      <MenuItemSubheading></MenuItemSubheading>
       <SubHeading text="HOURS & LOCATIONS"></SubHeading>
       <div>
         <ContentText
