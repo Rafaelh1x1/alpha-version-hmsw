@@ -52,7 +52,8 @@ function App() {
 
       {/* CLick the location in order to change the menu depedning on the store location */}
       <div className="choose-location-container">
-        <ChooseLocation text="Choose Location"></ChooseLocation>
+        <ChooseLocation text="Temple Terrace"></ChooseLocation>
+        <ChooseLocation text="Sparkman Wharf"></ChooseLocation>
       </div>
 
       {/* Click these and they will change the HTML being displaeyd */}

@@ -149,7 +149,9 @@
 }
 
 .choose-location {
-  border: 1px #67b0b3 solid;
+  font-size: calc(2vw + 1em);
+  padding: 0.5rem;
+  border: 0.5rem #67b0b3 groove;
   background-color: #cf4929;
   color: #efebcf;
 }
@@ -158,6 +160,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
+  gap: 5rem;
+  padding-bottom: 1rem;
 }
 
 /* STYLING FOR MENU ITEM TYPES */
