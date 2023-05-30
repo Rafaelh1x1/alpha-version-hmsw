@@ -1,7 +1,7 @@
 import "./App.css";
 import TopBanner from "./topBanner";
 import BestSellers from "./bestSellers";
-import SubHeading from "./SubHeading";
+import SubHeading from "./subHeading";
 import ChooseLocation from "./chooseLocation";
 import MenuItemSubheading from "./menuItemSubheading";
 import { MenuItemImg, MenuItemType, MenuItem } from "./menuItems";

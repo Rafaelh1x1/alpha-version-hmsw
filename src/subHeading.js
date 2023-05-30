@@ -1,6 +1,6 @@
 import React from "react";
 
-function SubHeading(props) {
+function subHeading(props) {
   return (
     <div>
       <p className="sub-heading">{props.text}</p>
@@ -8,4 +8,4 @@ function SubHeading(props) {
   );
 }
 
-export default SubHeading;
+export default subHeading;
