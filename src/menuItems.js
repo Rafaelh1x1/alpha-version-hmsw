@@ -1,6 +1,6 @@
 import React from "react";
 
-function menuItemImg(props) {
+function MenuItemImg(props) {
   return (
     <div>
       <img
@@ -12,22 +12,22 @@ function menuItemImg(props) {
   );
 }
 
-function menuItemType(props) {
+function MenuItemType(props) {
   return (
     <div>
-      <p>{props.Type}</p>
+      <p className="menu-item-types">{props.type}</p>
     </div>
   );
 }
 
-function menuItem(props) {
+function MenuItem(props) {
   return (
     <div>
-      <p>{props.itemName}</p>
-      <p>{props.itemDescription}</p>
-      <p>{props.itemPrice}</p>
+      <p className="menu-item-name">{props.itemName}</p>
+      <p className="menu-item-description">{props.itemDescription}</p>
+      <p className="menu-item-price">{props.itemPrice}</p>
     </div>
   );
 }
 
-export { menuItemImg, menuItemType, menuItem };
+export { MenuItemImg, MenuItemType, MenuItem };
