@@ -102,6 +102,10 @@ function App() {
       </div>
       <SubHeading text="HOURS & LOCATIONS"></SubHeading>
       <div>
+        <div className="choose-location-container">
+          <ChooseLocation text="Temple Terrace"></ChooseLocation>
+          <ChooseLocation text="Sparkman Wharf"></ChooseLocation>
+        </div>
         <ContentText
           text="11508 N 56th Street,
 Temple Terrace, FL 33617"
