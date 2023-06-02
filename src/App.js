@@ -17,6 +17,11 @@ function App() {
   const [visibleCLTemple, setVisibleCLTemple] = useState(false);
   const [visibleCLSpark, setVisibleCLSpark] = useState(false);
 
+  const toggleVisible = () => {
+    setVisibleCLTemple(!visibleCLSpark);
+    setVisibleCLSpark(false);
+  };
+
   return (
     <body className="body">
       <TopBanner text="11508 N 56TH STREET, TEMPLE TERRACE, FL 33617 |    813-437-3474"></TopBanner>
@@ -57,14 +62,22 @@ function App() {
 
       {/* CLick the location in order to change the menu depedning on the store location */}
       <div className="choose-location-container">
-        <button onClick={() => setVisibleCLTemple(!visibleCLTemple)}>
+        <button
+          onClick={() =>
+            setVisibleCLTemple(!visibleCLTemple && visibleCLSpark === false)
+          }
+        >
           <ChooseLocation
             text="Temple Terrace"
             class="c-l-temple-terrace"
           ></ChooseLocation>
         </button>
 
-        <button onClick={() => setVisibleCLSpark(!visibleCLSpark)}>
+        <button
+          onClick={() =>
+            setVisibleCLSpark(!visibleCLSpark && visibleCLTemple === false)
+          }
+        >
           <ChooseLocation
             text="Sparkman Wharf"
             class="c-l-sparkman-wharf"
@@ -120,7 +133,6 @@ function App() {
           </div>
         </span>
       )}
-      <button onClick={() => setVisibleCLSpark(!visibleCLSpark)}></button>
       {visibleCLSpark && (
         <span>
           <div className="menu-sparkman">
