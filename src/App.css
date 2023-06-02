@@ -9,6 +9,10 @@
   overflow: hidden;
 }
 
+/* This class is for things to not be visible works with the javascript */
+.hidden {
+  display: none;
+}
 /* THIS IS THE TOP HEADER ONLY */
 .top-banner {
   font-size: calc(0.4vw + 1em);
