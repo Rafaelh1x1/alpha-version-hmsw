@@ -77,6 +77,20 @@
 .quick-nav-text {
   cursor: pointer;
 }
+.mobile-nav-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #67b0b3;
+}
+.open-nav {
+  display: none;
+  color: #e0eff2;
+}
+.close-nav {
+  display: none;
+  color: #e0eff2;
+}
 /* Styling for top image that states half moon seafood co. */
 .top-banner-img-bold-text {
   font-family: "Lilita One";

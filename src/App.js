@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import "./App.css";
+import "./Queries.css";
 import TopBanner from "./topBanner";
 import BestSellers from "./bestSellers";
 import SubHeading from "./subHeading";
