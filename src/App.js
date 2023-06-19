@@ -1,5 +1,7 @@
 import React, { useState } from "react";
+
 import "./App.css";
+import QuickNav from "./QuickNav";
 import TopBanner from "./topBanner";
 import BestSellers from "./bestSellers";
 import SubHeading from "./subHeading";
@@ -25,6 +27,7 @@ function App() {
   return (
     <body className="body">
       <TopBanner text="11508 N 56TH STREET, TEMPLE TERRACE, FL 33617 |    813-437-3474"></TopBanner>
+
       <div class="best-sellers-subheading">
         <SubHeading text="OUR BEST SELLERS"></SubHeading>
       </div>
@@ -66,6 +69,7 @@ function App() {
           onClick={() =>
             setVisibleCLTemple(!visibleCLTemple && visibleCLSpark === false)
           }
+          className="menu-button"
         >
           <ChooseLocation
             text="Temple Terrace"
@@ -77,6 +81,7 @@ function App() {
           onClick={() =>
             setVisibleCLSpark(!visibleCLSpark && visibleCLTemple === false)
           }
+          className="menu-button"
         >
           <ChooseLocation
             text="Sparkman Wharf"
