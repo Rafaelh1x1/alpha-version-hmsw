@@ -1,7 +1,5 @@
 import React, { useState } from "react";
-
 import "./App.css";
-import QuickNav from "./QuickNav";
 import TopBanner from "./topBanner";
 import BestSellers from "./bestSellers";
 import SubHeading from "./subHeading";
