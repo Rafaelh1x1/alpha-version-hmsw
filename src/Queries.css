@@ -4,7 +4,7 @@
     font-family: "Secular One";
     font-weight: 500;
     font-size: calc(0.2vw + 1em);
-    display: none;
+    display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -42,6 +42,7 @@
     border: 0.3rem #cf4929 groove;
   }
 }
+
 @media (max-width: 400px) {
   .text-overlay {
     position: absolute;
